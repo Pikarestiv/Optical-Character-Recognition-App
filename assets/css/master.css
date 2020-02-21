@@ -1,0 +1,23 @@
+.btn-inside{
+  position: relative;
+}
+
+.scan{
+  position: absolute;
+  right: 0;
+  top: 1px;
+}
+
+.scan img{
+  height: 30px;
+  width: 30px;
+}
+
+.btn-inside button{
+  outline: none;
+  border-radius: 10%;
+}
+
+#text-result{
+  display: none;
+}

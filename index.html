@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>OCR APP</title>
+    <link rel="stylesheet" href="assets/css/master.css">
+    <link rel="stylesheet" href="assets/css/bootstrapcyborg337.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="navbar-brand">OCR App</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="jumbotron">
+        <h3 class="text-center">Upload Image</h3>
+
+        <form class="uploadForm" id="uploadForm" enctype="multipart/form-data">
+          <div class="btn-inside">
+            <input type="file" id="fileInput" required="required" class="form-control" placeholder="Upload Image">
+            <button class="scan" id="scan"><img src="assets/img/scanner.png" class="img-fluid pull-xs-left" alt="Scan Image"></button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="container">
+      <textarea class="form-control" rows="5" id="text-result"></textarea>
+    </div>
+
+    <script src="assets/js/jquery-3.4.1.js"></script>
+    <script src="assets/js/main.js"></script>
+
+  </body>
+</html>
